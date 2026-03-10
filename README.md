@@ -9,31 +9,31 @@ Designed with a dark mystical aesthetic — deep purples, gold typography, and s
 ## 🖼 Screenshots
 
 ### Homepage
-![Hero section](screenshots/1.png)
-![When to seek holistic therapy](screenshots/2.png)
-![What therapy can help with](screenshots/3.png)
+![Hero section](1.png)
+![When to seek holistic therapy](2.png)
+![What therapy can help with](3.png)
 
 ### About & Services
-![About me](screenshots/4.png)
-![Stats & service overview](screenshots/5.png)
-![Service types](screenshots/6.png)
+![About me](4.png)
+![Stats & service overview](5.png)
+![Service types](6.png)
 
 ### Social Proof & Shop
-![Client testimonials](screenshots/7.png)
-![Spiritual items shop](screenshots/8.png)
+![Client testimonials](7.png)
+![Spiritual items shop](8.png)
 
 ### FAQ & Footer
-![FAQ section](screenshots/9.png)
-![FAQ expanded & footer](screenshots/10.png)
+![FAQ section](9.png)
+![FAQ expanded & footer](10.png)
 
 ### Service Detail Pages
-![Tarot reading page](screenshots/11.png)
-![Reading options & pricing](screenshots/12.png)
-![Booking detail](screenshots/13.png)
+![Tarot reading page](11.png)
+![Reading options & pricing](12.png)
+![Booking detail](13.png)
 
 ### Product Detail Pages
-![Energetic incense product](screenshots/14.png)
-![Product purchase page](screenshots/15.png)
+![Energetic incense product](14.png)
+![Product purchase page](15.png)
 
 ---
 
@@ -109,7 +109,7 @@ site-terapia-holistica/
 ├── (other service pages)
 ├── incenso.html            ← product detail page
 ├── (other product pages)
-├── screenshots/            ← project screenshots
+├──             ← project screenshots
 └── README.md
 ```
 
