@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Vivian Pimentel — Terapia Holística online. Tarot, Jogo de Búzios, Mesa Radiônica, Limpeza Energética e Trabalhos Espirituais. Atendimentos para Brasil, Portugal e mais 7 países.">
     <title>Vivian Pimentel | Terapia Holística</title>
@@ -28,6 +29,7 @@
     <a href="#sobre">Sobre Mim</a>
     <a href="#atendimentos">Atendimentos</a>
     <a href="#produtos">Itens Espirituais</a>
+    <a href="#faq">Dúvidas</a>
 </nav>
 
 <!-- QUANDO BUSCAR -->
@@ -235,7 +237,7 @@
                 <img src="imagem1.jpg" alt="Incenso Energético">
                 <div class="produto-info">
                     <h3>Incenso Energético</h3>
-                    <p>R$ 29,90</p>
+                    <p>R$ 29,90 | 5€</p>
                 </div>
             </div>
         </a>
@@ -244,7 +246,7 @@
                 <img src="imagem2.jpg" alt="Pedra Ametista">
                 <div class="produto-info">
                     <h3>Pedra Ametista</h3>
-                    <p>R$ 59,90</p>
+                    <p>R$ 59,90 | 10€</p>
                 </div>
             </div>
         </a>
@@ -253,10 +255,72 @@
                 <img src="imagem3.jpg" alt="Amuleto de Proteção">
                 <div class="produto-info">
                     <h3>Amuleto de Proteção</h3>
-                    <p>R$ 49,90</p>
+                    <p>R$ 49,90 | 10€</p>
                 </div>
             </div>
         </a>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section">
+    <h2 class="section-title">Perguntas Frequentes</h2>
+    <p class="section-subtitle">Tire as suas dúvidas</p>
+
+    <div class="faq-grid">
+        <div class="faq-item reveal reveal-delay-1">
+            <button class="faq-pergunta" onclick="toggleFaq(this)">
+                <span>Quais formas de pagamento são aceitas?</span>
+                <i class="fa fa-chevron-down"></i>
+            </button>
+            <div class="faq-resposta">
+                <p>As formas de pagamento variam conforme o país:</p>
+                <ul>
+                    <li><strong>Brasil:</strong> Pix e transferência bancária</li>
+                    <li><strong>Europa:</strong> MBWay, depósito bancário e Western Union</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-2">
+            <button class="faq-pergunta" onclick="toggleFaq(this)">
+                <span>O pagamento é feito antes ou depois do atendimento?</span>
+                <i class="fa fa-chevron-down"></i>
+            </button>
+            <div class="faq-resposta">
+                <p>O pagamento é realizado no momento do agendamento, antes do atendimento.</p>
+            </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-3">
+            <button class="faq-pergunta" onclick="toggleFaq(this)">
+                <span>Atendes clientes fora do Brasil?</span>
+                <i class="fa fa-chevron-down"></i>
+            </button>
+            <div class="faq-resposta">
+                <p>Sim! Os atendimentos são 100% online e já atendi clientes no Brasil, Portugal, França, Espanha, Reino Unido, Estados Unidos e Canadá.</p>
+            </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-4">
+            <button class="faq-pergunta" onclick="toggleFaq(this)">
+                <span>Quantas sessões são necessárias para ver resultados?</span>
+                <i class="fa fa-chevron-down"></i>
+            </button>
+            <div class="faq-resposta">
+                <p>Depende do tipo de trabalho. Durante o atendimento, oriento sobre o número de sessões recomendadas para o seu caso específico.</p>
+            </div>
+        </div>
+
+        <div class="faq-item reveal reveal-delay-5">
+            <button class="faq-pergunta" onclick="toggleFaq(this)">
+                <span>Os trabalhos espirituais interferem no livre-arbítrio?</span>
+                <i class="fa fa-chevron-down"></i>
+            </button>
+            <div class="faq-resposta">
+                <p>As Pombogiras agem de acordo com o merecimento de cada pessoa, sempre respeitando o livre-arbítrio e o destino de cada um.</p>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -287,6 +351,21 @@
     <i class="fa fa-chevron-up"></i>
 </button>
 
+<!-- FAQ -->
+<script>
+    function toggleFaq(btn) {
+        const item = btn.closest('.faq-item');
+        const isAberto = item.classList.contains('aberto');
+        document.querySelectorAll('.faq-item.aberto').forEach(el => el.classList.remove('aberto'));
+        if (!isAberto) item.classList.add('aberto');
+    }
+</script>
+
 <script src="script.js"></script>
+
+<!-- BOTÃO FLUTUANTE WHATSAPP -->
+<a href="https://wa.me/+351935941668" target="_blank" class="btn-whatsapp" title="Falar no WhatsApp">
+    <i class="fa fa-whatsapp"></i>
+</a>
 </body>
 </html>
